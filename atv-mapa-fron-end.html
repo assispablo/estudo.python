@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sua Landing Page - [Seu Nome]</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Seus estilos CSS virão aqui */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* Estilos para o cabeçalho */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 1rem;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        /* Estilos para as seções */
+        section {
+            padding: 2rem;
+            margin: 1rem auto;
+            max-width: 800px;
+            background-color: #f4f4f4;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        /* Estilos para os artigos de projetos */
+        article {
+            background-color: white;
+            padding: 1.5rem;
+            margin-top: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+        }
+        /* Estilos para o aside */
+        aside {
+            padding: 1.5rem;
+            margin: 1rem auto;
+            max-width: 800px;
+            background-color: #e9e9e9;
+            border-radius: 8px;
+        }
+        /* Estilos para o rodapé */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        /* Media Queries para responsividade */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+            }
+            nav ul li {
+                margin: 5px 0;
+            }
+            section, aside {
+                padding: 1rem;
+                margin: 0.5rem auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="sua-foto.jpg" alt="Sua Foto">
+        <h1>Pablo Assis</h1>
+        <p>Desenvolvedor Web | Criando Soluções Digitais</p>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mim">Sobre Mim</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre-mim">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Sou Pablo Assis, estudante de Análise e Desenvolvimento pela Unicesumar. Atuo como Analysts Businnes, cuidando do produto da minha empresa e prestando consultoria e levantando requisito para melhorar o produto para meus clientes.</p>
+            </section>
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML5 Semântico</li>
+                <li>CSS3 (Flexbox, Grid, Responsividade)</li>
+                <li>JavaScript (Básico/Intermediário)</li>
+                <li>Controle de Versão (Git/GitHub)</li>
+                <li>UX/UI Design (Conceitos Básicos)</li>
+            </ul>
+            </section>
+
+        <section id="projetos">
+            <h2>Meus Projetos</h2>
+            <article>
+                <h3>Projeto 1: Landing Page de Produto Fictício</h3>
+                <p>Uma landing page moderna e responsiva para um produto imaginário, focando na conversão e na experiência do usuário.</p>
+                <p><a href="#">Ver Projeto (se houver)</a> | <a href="#">Repositório GitHub</a></p>
+            </article>
+            <article>
+                <h3>Projeto 2: Portfólio de Fotografia Simples</h3>
+                <p>Um site simples para exibir um portfólio de fotografias, com galeria responsiva e navegação amigável.</p>
+                <p><a href="#">Ver Projeto (se houver)</a> | <a href="#">Repositório GitHub</a></p>
+            </article>
+            </section>
+    </main>
+
+    <aside>
+        <h3>Curiosidades e Links Úteis</h3>
+        <p>Quando não estou codificando, gosto de [seu hobby].</p>
+        <ul>
+            <li>GitHub: <a href="https://github.com/dashboard" target="_blank">@assispablo</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/pablo-marques-12a57a108/" target="_blank">@pablomarques</a></li>
+            </ul>
+    </aside>
+
+    <footer>
+        <p>Contato: <a href="mailto:seuemail@example.com">seuemail@example.com</a></p>
+        <p>&copy; 2025 Seu Nome. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
